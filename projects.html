@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Søren B. Vilsen - Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="custom-bootstrap-menu" class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+	    <a href="http://www.aau.dk/" class="pull-left"><img src="./images/aau.png" width = "100px"></img></a>
+        </div>
+        <div class="collapse navbar-collapse navbar-menubuilder">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+				<li class="active"><a href="projects.html">Ongoing Projects</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="page-header" align=center> 
+<h2>Ongoing Projects</h2>
+</div>
+<div class="container">
+<div class="row">
+	<div class="col-sm-1"></div>
+  	<div class="col-sm-10">
+	<dl>
+	<h3>R-packages</h3>
+	<!-- -->
+	<hr>
+	<dt><h4><b>RWNN:</b></h4></dt>
+	<dl>
+	<dt><b>Status: </b></dt>		
+	<dd><u>Version 0.4</u>: is found on CRAN.</dd>	
+	<dd><u>Experimental</u>: Making minor changes to boosting implementation.</dd>	
+	<dt><b>Description: </b></dt>
+	<dd>Creation, estimation, and prediction of random weight neural networks (RWNN), including popular variants like extreme learning machines (ELM), sparse RWNN, and deep RWNN. It further allows for the creation of ensemble RWNNs like bagging RWNN, boosting RWNN, stacking RWNN, and ensemble deep RWNN (edRWNN).</dd>
+	<dt><b>Links: </b></dt>
+	<dd><a href="https://cran.r-project.org/web/packages/RWNN/index.html">CRAN: Version 0.4</a> <br/> <a href="https://github.com/svilsen/RWNN/tree/master">Github (Stable): Version 0.4.1</a> <br/> <a href="https://github.com/svilsen/RWNN/tree/dev">Github (Experimental): Version 0.4.1</a> </dd>
+	</dl>
+    <!-- -->
+	<hr>
+	<dt><h4><b>ITNB:</b></h4></dt>
+	<dl>
+	<dt><b>Status: </b></dt>		
+	<dd><u>Experimental</u>: Missing vignette, unittesting, and transfer of bootstrapping to C++. </dd>	
+	<dt><b>Description: </b></dt>
+	<dd>An inflated and truncated negative binomial regression model, with parameter estimation by the EM-algorithm, and confidence envelopes by either the parametric or non-parametric bootstrap.</dd>
+	<dt><b>Links: </b></dt>
+	<dd><a href="https://github.com/svilsen/itnb/tree/master">Github (Stable): Version 0.2</a> <br/> <a href="https://github.com/svilsen/RWNN/tree/master">Github (Experimental): Version 0.3</a> </dd>
+	</dl>
+  <!-- -->
+	<hr>
+	<dt><h4><b>MPSMixtures:</b></h4></dt>
+	<dl>
+	<dt><b>Status: </b></dt>		
+	<dd><u>Experimental</u>: Needs additional help functions to make it easier to use. Furthermore, documentation needs to be updated.</dd>	
+	<dt><b>Description: </b></dt>
+	<dd>The package implements an EA (Evolutionary Algorithm) for DNA mixture deconvolution and WOE estimation in MPS (Massively Parallel Sequencing) data.</dd>
+	<dt><b>Links: </b></dt>
+	<dd><a href="https://github.com/svilsen/MPSMixtures/tree/dev"> Github (Experimental): Version 0.3.1</a></dd>
+	</dl>
+	<!-- -->
+	<hr>
+	<dt><h4><b>STRMPS:</b></h4> </dt>
+	<dl>
+	<dt><b>Status: </b></dt>		
+	<dd><u>Stable</u>: Version has been removed from CRAN due to clashes with older versions of <tt>R</tt>; the new stable version will only work with newer versions of <tt>Biostrings</tt>  and <tt>pwalign</tt> (i.e., after <tt>pwalign</tt> was extracted from the <tt>Biostrings</tt> package). </dd>	
+	<dt><b>Description: </b></dt>
+	<dd>A package of function for handling raw STR (Short Tandem Repeat) MPS (Massively Parallel Sequencing) data.</dd>
+	<dt><b>Links: </b></dt>
+	<dd><a href="https://github.com/svilsen/STRMPS/tree/master">Github (Stable): Version 0.6.9</a> <br/> <a href="https://github.com/svilsen/STRMPS/tree/dev">Github (Experimental): Version 0.6.9</a></dd>
+	</dl>
+	</dl>
+	</div>
+	<div class="col-sm-1"></div>
+</div>
+</div>
+</body>
+</html>
